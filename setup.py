@@ -13,7 +13,10 @@ setup(
   author = 'Ideas Labs',
   author_email = 'saurabh.chaturvedi63@gmail.com',
   url = 'https://github.com/Ideas-Labs/plant',
-  scripts=['pip-plant'],
+  scripts=['plant/pip-plant'],
+  install_requires=[
+    'envoy',
+    ],
   # download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',
   keywords = ['pip', 'packaging', 'python'],
   classifiers=[
