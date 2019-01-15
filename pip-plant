@@ -1,0 +1,15 @@
+#!/usr/bin/env python
+import os
+
+def main():
+    
+    # Detect the requirements.txt file
+    
+
+    # Install the packages from requirements.txt
+
+
+    # Show success !
+
+if __name__ == '__main__':
+    main()
