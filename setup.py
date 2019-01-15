@@ -1,6 +1,11 @@
+"""
+pip-plant installs your dependencies.
+"""
+
 from distutils.core import setup
+
 setup(
-  name = 'plant',
+  name = 'pip-plant',
   packages = ['plant'],
   version = '0.1',
   license='MIT',
@@ -8,6 +13,7 @@ setup(
   author = 'Ideas Labs',
   author_email = 'saurabh.chaturvedi63@gmail.com',
   url = 'https://github.com/Ideas-Labs/plant',
+  scripts=['pip-plant'],
   # download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',
   keywords = ['pip', 'packaging', 'python'],
   classifiers=[
