@@ -4,13 +4,13 @@ pip-plant installs your dependencies.
 
 from setuptools import setup
 
-with open('README.md', encoding='utf-8') as readme:
+with open('README.md') as readme:
     long_description = readme.read()
 
 setup(
   name='pip-plant',
   packages=['pip-plant'],
-  version='0.2.2',
+  version='0.3',
   license='MIT',
   description='Plant simplifies Python package management for your projects.',
   long_description=long_description,
