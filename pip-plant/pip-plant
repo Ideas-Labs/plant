@@ -4,7 +4,15 @@ import envoy
 
 def main():
 
-    # Inform the User after dependency detection
+    try:
+        # Check for requirements File
+        file = open('requirements.txt')
+        print("Requirements detected!")
+        file.close()
+    except FileNotFoundError:
+        print("Please add requirements File")
+
+    # Inform the User after dependencies detection
     print('Found {} dependencies, Installing!'.format(sum(1 for line in open('requirements.txt'))))
 
     # Install the packages from requirements.txt
