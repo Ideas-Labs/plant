@@ -4,7 +4,7 @@ pip-plant installs your dependencies.
 
 from setuptools import setup
 
-with open('README.md') as readme:
+with open('README.md', encoding='utf-8') as readme:
     long_description = readme.read()
 
 setup(
@@ -14,7 +14,7 @@ setup(
   license='MIT',
   description='Plant simplifies Python package management for your projects.',
   long_description=long_description,
-  long_description_content_type="text/markdown",
+  long_description_content_type='text/markdown',
   author='Ideas Labs',
   author_email='saurabh.chaturvedi63@gmail.com',
   url='https://github.com/Ideas-Labs/plant',
