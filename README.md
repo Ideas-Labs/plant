@@ -32,7 +32,6 @@ That's basically it.
     $ pip install pip-plant
 
 
-
 This isn't the only problem `plant` solves. More features coming soon include
 automatic requirements file updation, dependency stats (i.e. dependency usage
 proportions measurement in your project) and much more!
