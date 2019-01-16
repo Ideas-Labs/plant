@@ -1,4 +1,6 @@
 # plant
+
+
 ### Simplified Package Management for Python
 
 Plant is a simplified package manager for your Python projects.
@@ -28,6 +30,7 @@ That's basically it.
 ## Installation
 
     $ pip install pip-plant
+
 
 
 This isn't the only problem `plant` solves. More features coming soon include
