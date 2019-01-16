@@ -1,12 +1,10 @@
 #!/usr/bin/env python
 
-import envoy, os, sys
+import envoy
 
 def main():
-    
-    # Detect the requirements.txt file
-    
-    # Inform the User after detection
+
+    # Inform the User after dependency detection
     print('Found {} dependencies, Installing!'.format(sum(1 for line in open('requirements.txt'))))
 
     # Install the packages from requirements.txt
