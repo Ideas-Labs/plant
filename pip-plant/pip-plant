@@ -8,12 +8,12 @@ def main():
         # Check for requirements File
         file = open('requirements.txt')
         print("Requirements detected!")
+
+        # Inform the User after dependencies detection
+        print('Found {} dependencies. Please wait, Installing!'.format(sum(1 for line in file))
         file.close()
     except FileNotFoundError:
         print("Please add requirements File")
-
-    # Inform the User after dependencies detection
-    print('Found {} dependencies. Please wait, Installing!'.format(sum(1 for line in open('requirements.txt'))))
 
     # Install the packages from requirements.txt
     command = 'pip install -r requirements.txt'

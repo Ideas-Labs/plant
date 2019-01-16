@@ -10,7 +10,7 @@ with open('README.md') as readme:
 setup(
   name='pip-plant',
   packages=['pip-plant'],
-  version='0.2',
+  version='0.2.1',
   license='MIT',
   description='Plant simplifies Python package management for your projects.',
   long_description=long_description,
