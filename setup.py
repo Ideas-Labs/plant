@@ -8,22 +8,19 @@ with open('README.md') as readme:
     long_description = readme.read()
 
 setup(
-  name = 'pip-plant',
-  packages = ['pip-plant'],
-  version = '0.2',
+  name='pip-plant',
+  packages=['pip-plant'],
+  version='0.2',
   license='MIT',
-  description = 'Plant simplifies Python package management for your projects.',
+  description='Plant simplifies Python package management for your projects.',
   long_description=long_description,
   long_description_content_type="text/markdown",
-  author = 'Ideas Labs',
-  author_email = 'saurabh.chaturvedi63@gmail.com',
-  url = 'https://github.com/Ideas-Labs/plant',
+  author='Ideas Labs',
+  author_email='saurabh.chaturvedi63@gmail.com',
+  url='https://github.com/Ideas-Labs/plant',
   scripts=['plant/pip-plant'],
-  install_requires=[
-    'envoy',
-    ],
-  # download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',
-  keywords = ['pip', 'packaging', 'python'],
+  install_requires=['envoy'],
+  keywords=['pip', 'packaging', 'python'],
   classifiers=[
     'Development Status :: 3 - Alpha',
     'Intended Audience :: Developers',

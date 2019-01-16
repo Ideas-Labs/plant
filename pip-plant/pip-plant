@@ -13,15 +13,15 @@ def main():
         print("Please add requirements File")
 
     # Inform the User after dependencies detection
-    print('Found {} dependencies, Installing!'.format(sum(1 for line in open('requirements.txt'))))
+    print('Found {} dependencies. Please wait, Installing!'.format(sum(1 for line in open('requirements.txt'))))
 
     # Install the packages from requirements.txt
     command = 'pip install -r requirements.txt'
     print(envoy.run(command).std_out)
-    print('Installed!')
-
 
     # Show success !
+    print('Installed!')
+
 
 if __name__ == '__main__':
     main()
