@@ -22,8 +22,9 @@ mentioned in your project's `requirements.txt`.
 
     $ pip-plant
     Requirements detected!
-    Found 10 dependencies. Please wait, Installing!
-    Installed!!
+    Found 10 dependencies. Please wait, installing!
+    ... [standard pip output] ...
+    All dependencies installed!
 
 That's basically it.
 
