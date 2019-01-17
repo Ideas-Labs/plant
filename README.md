@@ -1,4 +1,6 @@
 # plant
+
+
 ### Simplified Package Management for Python
 
 Plant is a simplified package manager for your Python projects.
@@ -14,6 +16,21 @@ With `plant`, Python programmers, especially the lazy ones (i.e. the good
 ones) don't have to face this inconvenience. This packages boils all of the
 hassle down to `$ pip-plant`, which simply installs all the dependencies
 mentioned in your project's `requirements.txt`.
+
+
+## Usage
+
+    $ pip-plant
+    Requirements detected!
+    Found 10 dependencies. Please wait, Installing!
+    Installed!!
+
+That's basically it.
+
+## Installation
+
+    $ pip install pip-plant
+
 
 This isn't the only problem `plant` solves. More features coming soon include
 automatic requirements file updation, dependency stats (i.e. dependency usage
