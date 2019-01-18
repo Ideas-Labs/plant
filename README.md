@@ -1,5 +1,9 @@
 # plant
 
+[![PyPI version](https://badge.fury.io/py/pip-plant.svg)](https://badge.fury.io/py/pip-plant)
+[![HitCount](http://hits.dwyl.io/Ideas-Labs/plant.svg)](http://hits.dwyl.io/Ideas-Labs/plant)
+[![pypi supported versions](https://img.shields.io/pypi/pyversions/pip-plant.svg)](https://pypi.org/project/pip-plant)
+
 
 ### Simplified Package Management for Python
 
